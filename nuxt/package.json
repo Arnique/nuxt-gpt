@@ -1,0 +1,42 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "dbgen": "drizzle-kit generate",
+    "dbpush": "drizzle-kit migrate",
+    "dbstudio": "drizzle-kit studio"
+  },
+  "dependencies": {
+    "@nuxt/icon": "^1.4.5",
+    "@nuxt/ui": "^2.18.3",
+    "@nuxtjs/mdc": "^0.8.3",
+    "@pinia/nuxt": "^0.5.2",
+    "better-sqlite3": "^11.1.2",
+    "drizzle-orm": "^0.32.1",
+    "firebase": "^10.12.5",
+    "firebase-admin": "^12.3.0",
+    "gpt-3-encoder": "^1.1.4",
+    "jwt-decode": "^4.0.0",
+    "nuxt": "^3.12.4",
+    "openai": "^4.55.1",
+    "pinia": "^2.2.0",
+    "sqlite3": "^5.1.7",
+    "vue": "latest"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.14",
+    "@types/better-sqlite3": "^7.6.11",
+    "drizzle-kit": "^0.23.1",
+    "pug": "^3.0.3",
+    "pug-plain-loader": "^1.1.0",
+    "sass": "^1.77.8",
+    "sass-loader": "^16.0.0"
+  }
+}
