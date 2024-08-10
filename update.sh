@@ -7,5 +7,5 @@ git pull origin
 yarn install
 yarn build
 
-pm2 start
+pm2 start ecosystem.config.cjs
 
