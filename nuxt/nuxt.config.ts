@@ -34,9 +34,10 @@ export default defineNuxtConfig({
   },
   modules: [
     '@nuxt/ui',
-    '@pinia/nuxt',
+    '@nuxt/image',
     '@nuxt/icon',
-    '@nuxtjs/mdc'
+    '@nuxtjs/mdc',
+    '@pinia/nuxt'
   ],
   css: [
     '@/assets/scss/main.scss'
